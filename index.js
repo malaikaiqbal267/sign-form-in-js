@@ -5,8 +5,9 @@ const nameField = document.getElementById("name-field");
 const confirmPasswordField = document.getElementById("confirm-password-field");
 const submitButton = document.getElementById("submit-btn");
 const toggleLink = document.getElementById("toggle-form");
-
+console.log(loginTab,"loginTab")
 function showLoginForm() {
+  console.log("hello")
   formTitle.textContent = "Login Form";
   nameField.style.display = "none";
   confirmPasswordField.style.display = "none";
