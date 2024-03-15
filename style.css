@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+.active{
+    background: linear-gradient(90deg, #023471, #036ed6) !important;
+    color: white !important;
+
+
+}
+.main-container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #f0f0f0; */
+    background: linear-gradient(90deg, #96c5fb, #cec5fc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.heading h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    width: 49%;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    box-shadow: -2px 0px 4px #ccc;
+
+    transition: background-color 0.3s ease;
+}
+.tab1 {
+   
+  
+    background-color: white !important;
+    color: black;
+
+}
+.tab2 {
+  
+  
+    background-color: white !important;
+    color: black;
+
+}
+
+.tab:hover {
+    background-color: #ddd;
+}
+
+.form-field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: -2px -1px 4px #ccc;
+}
+
+.signin-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#submit-btn{
+    background: linear-gradient(90deg, #023471, #036ed6) !important;
+
+}
+/* button:hover {
+    background-color: #0056b3;
+} */
+
+.para {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.para a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.para a:hover {
+    text-decoration: underline;
+}
